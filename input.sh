@@ -7,7 +7,6 @@ read -p "Enter your birth date: " year
 
 echo "Hello $name"
 
-echo $DATE
 age=$((DATE-year))
 
 if [[ "$name" = "marek" || "$name" = "Marek" ]]; then
